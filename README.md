@@ -1,8 +1,6 @@
 # Food Menu Webpage  
 
-A simple food menu webpage built with **HTML5 and CSS3**.  
-It lets users search food items with prices, and confirm or cancel orders.   
-The page has a clean design with a background image and a scrolling hotel name for better appearance.  
+A simple food menu webpage built with **HTML5 and CSS3**. It lets users search food items with prices, and confirm or cancel orders. The page has a clean design with a background image and a scrolling hotel name for better appearance.  
 
 ---
 
