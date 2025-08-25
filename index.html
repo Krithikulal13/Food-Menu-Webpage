@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Menu</title>
+  <style>
+    * {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      
+    }
+    .container {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      width: 400px;
+      border-radius: 20px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #b30059;
+     
+    }
+    h2{
+        color: rgb(16, 15, 15);
+        margin: 15px;
+        font-size: 50px;
+        margin-bottom: 125px;
+        background-color: rgb(241, 251, 183);
+        width:350px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    label {
+      font-size: 18px;
+      font-weight:900;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    input[type="text"] {
+      width: 90%;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: 1px solid #888; 
+    }
+
+    input[type="text"]:hover {
+      opacity: 0.7;
+      border-color: #b30059;
+      box-shadow: 0px 0px 8px #b30059;
+    } 
+    button[type="submit"]{
+                border: none;
+                background-color: rgb(97, 255, 61);
+                color:rgb(0, 0, 0) ;
+                padding: 10px 20px;
+                cursor: pointer;
+                margin-top: 20px;
+                font-size:15px;
+                border-radius: 5px;
+            }
+            button[type="reset"]{
+                border: none;
+                background-color: rgb(255, 61, 64);
+                color:rgb(0, 0, 0) ;
+                padding: 10px 20px;
+                cursor: pointer;
+                margin-top: 20px;
+                margin-left: 15px;
+                font-size:15px;
+                border-radius: 5px;
+            } 
+            button:hover{
+              opacity: 0.7;
+              border-color: #b30059;
+             
+
+            }
+  </style>
+</head>
+<body>
+   
+        <marquee behavior="scroll" direction="left" scrollamount="11"><h2><i>Karavali</i></h2></marquee>
+   
+    <br>
+    <div class="container">
+     <h1><i>Food Menu 🍔</i></h1>
+     <br>
+    <form>
+      <label for="menuitem">Search Item Here...👇👇</label>
+      <br><br>
+      <input type="text" id="menuitem" name="menuitem" placeholder="e.g: Masala Dosa, Biriyani, Pizza, Burger..." list="items">
+      <datalist id="items">
+        <option value="Rs:35/-">Idli-Sambar</option>
+                <option value="Rs:55/-">Masala Dosa</option>
+                <option value="Rs:30/-">Pani Puri</option> 
+                <option value="Rs:25/-">Vada Pav</option>
+                <option value="Rs:15/-">Samosa</option>
+                <option value="Rs:100/-">Pizza</option> 
+                <option value="Rs:119/-">Burger</option>
+                <option value="Rs:80/-">Noodles</option>
+                <option value="Rs:150/-">Biriyani</option> 
+                <option value="Rs:125/-">Jeera Rice</option>
+                <option value="Rs:45/-">Pulao</option>
+                <option value="Rs:75/-">Gobi Manchurian</option> 
+                <option value="Rs:35/-">Kesari Bath</option>
+                <option value="Rs:35/-">Neer Dosa</option>
+                <option value="Rs:36/-">Ragi Rotti</option> 
+                <option value="Rs:25/-">Onion Pakoda</option>
+                <option value="Rs:100/-">Egg Fried Rice</option>
+                <option value="Rs:90/-">Curd Rice</option> 
+                <option value="Rs:60/-">Ghee Rice</option>
+                <option value="Rs:140/-">Chicken Dum Biriyani</option>
+                <option value="Rs:120/-">Mushroom Fried Rice</option> 
+                <option value="Rs:200/-">Chicken 65</option>
+                <option value="Rs:20/-">Soft Drinks</option>
+                <option value="Rs:110/-">Gudbud</option>
+                 <option value="Rs:125/-">Panneer Manchurian</option>
+                <option value="Rs:60/-">Cold COffee</option>
+                <option value="Rs:50/-">Fruit Salad</option> 
+                <option value="Rs:30/-">Chocolate Scoop</option>
+                <option value="Rs:60/-">Grape Juice</option>
+                <option value="Rs:100/-">BabyCorn Chilly</option>
+      </datalist>
+      <button type="submit"><b>Confirm Order</b></button>
+      <button type="reset"><b>Cancel Order</b></button>
+    </form>
+  </div>
+</body>
+</html>
